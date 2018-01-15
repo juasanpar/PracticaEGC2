@@ -14,6 +14,13 @@ public class App1
 		int b = 2;
 		System.out.println(a + "/" + b + " = " + App1.divide(a,b));
 	}
+
+	public static int multiplica(int a, int b){
+		int result= a*b;
+		log.info("Returning "+a+"*"+b+"="+result);
+		return result;
+	}
+
 	
 	public static int divide(int a, int b){
 		int result= a/b;
